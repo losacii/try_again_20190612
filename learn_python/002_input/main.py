@@ -1,6 +1,6 @@
 import math
 
-# input string: name
+# input, always get a str value
 name = input("\nWhat is your name? ")
 print("Hi, {}!".format(name))
 
