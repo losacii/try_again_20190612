@@ -30,6 +30,8 @@ print(len(words))
 
 # join
 x = "~".join(words);    print(x)
+print("\t".join("hello world!"))
+print(" ~~~~~ ".join("hello world!"))
 
 # center, rjust, ljust
 
@@ -39,3 +41,4 @@ x = s.replace("beginers", "absolute beginers")
 
 # in operator
 res = "for" in s
+print(res)

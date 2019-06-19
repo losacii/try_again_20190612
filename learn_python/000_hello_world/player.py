@@ -12,11 +12,16 @@ def blit(s):
 
 lines = open("lorem.txt").readlines()
 
+# for _ in range(3):
+
+#     os.system("cls")
+#     time.sleep(1)
+
+#     for line in lines:
+#         blit(line)
+#     time.sleep(3)
+
+
 for _ in range(3):
-
-    os.system("cls")
-    time.sleep(1)
-
-    for line in lines:
-        blit(line)
-    time.sleep(3)
+    blit("\rhello world")
+    time.sleep(0.5)
