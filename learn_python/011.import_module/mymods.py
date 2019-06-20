@@ -8,3 +8,10 @@ def blit(s):
             sys.stdout.flush()
             time.sleep(0.02)
     time.sleep(0.02)
+
+
+def Foo():
+    print("fuction 'foo' running...")
+
+def Bar():
+    print("fuction 'bar' running...")
