@@ -48,7 +48,8 @@ def foo(x, li):
             return li
 
 if __name__ == "__main__":
+    print(__doc__)
+
     li = ['a', 'd', 'j', 'k', 'l', 't', 'z']
     x = 'y'
     print(foo(x, li))   
-    print(__doc__)
