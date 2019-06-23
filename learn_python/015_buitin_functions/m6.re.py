@@ -29,7 +29,6 @@ print( patt.findall("what2idsf93hu*38329") )
 # group & groups
 # https://blog.csdn.net/chr1991/article/details/80945455
 # 30分钟 正则表达式 教程
-# 19 - 30:33
 '''
 group和groups是两个不同的函数。
 一般，m.group(N) 返回第N组括号匹配的字符。

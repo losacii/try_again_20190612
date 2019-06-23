@@ -11,4 +11,7 @@ func = 'getcwd'
 model = __import__(source)
 function = getattr(model, func)
 
+print("-------->")
+function()
+print("-------->")
 print(function())
