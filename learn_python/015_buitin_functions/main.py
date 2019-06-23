@@ -44,6 +44,19 @@ print(ord('A'), ord('a'))
 print(chr(12), chr(66))
 
 # hex, oct, bin
-print(hex(18), oct(8))
+x = [
+    hex(33),
+    oct(17),
+    bin(15)
+];  print(x)
 
 # range, xrange
+
+# enumerate, help(enumerate)
+li = ['car', 'house', 'tv', 'computer', 'watch']
+for i in enumerate(li, start=5):
+    print(i)
+
+# string formatting
+s = "I am {}, {}"
+print( s.format("Alex", "Hello There!") )
