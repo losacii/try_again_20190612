@@ -14,7 +14,8 @@ for cell in ws1['A']:
         countline += 1
         if str(cell.value) == str(datacell.value):
             li = [str(i.value) for i in ws0[countline]]
-            ws2.append(li) #print(li)
+            # ws2.append(li) 
+            print(li)
             break
 
 # li = [i.value for i in ws[2]] # 一行数值列表

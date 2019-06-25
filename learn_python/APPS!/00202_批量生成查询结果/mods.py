@@ -2,6 +2,17 @@
 import sys, math, time
 put = sys.stdout.write
 
+def getLines(prompt):
+    lines = []
+    print(prompt)
+    while True:
+        try:
+            lines.append(input())
+        except:
+            print("Got targets!".center(80, '~') + '\n')
+            break
+    return lines
+
 def search(x, li):
     index = 0
     jump = math.ceil( len(li) / 2 )
