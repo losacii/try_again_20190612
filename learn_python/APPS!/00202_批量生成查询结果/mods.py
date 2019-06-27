@@ -2,6 +2,10 @@
 import sys, math, time
 put = sys.stdout.write
 
+def showli(li):
+    for i in li:
+        print(i)
+
 def getLines(prompt):
     lines = []
     print(prompt)
