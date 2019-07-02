@@ -1,19 +1,21 @@
 # coding:utf-8
 ''' ~~~~~~~~~~> random
+'''
 import os
 import random
 
-# print( random.random() )
-# print( random.randint(1, 2) )
-'''
+print( 10 + 10 * random.random() )
+
+for i in range(16):
+    print( random.randint(1, 2) )
 
 ''' ~~~~~~~~~> hashlib
+'''
 import hashlib
 
 h = hashlib.md5()
 h.update('admin2'.encode('utf8'))
 print( h.hexdigest() )
-'''
 
 ''' ~~~~~~~~~> pickle, json
 import pickle
