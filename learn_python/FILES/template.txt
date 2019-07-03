@@ -1,6 +1,6 @@
 # coding:utf-8
 import sys
-sys.path.append("../myModules")
+sys.path.append("../myModules") # 
 from mybasics import blit, show
 
 blit("hello world")
