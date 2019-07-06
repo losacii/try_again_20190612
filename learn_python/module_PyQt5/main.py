@@ -26,3 +26,9 @@ print('pyqt5')
 window = Window()
 sys.exit(App.exec())
 print('pyqt5')
+
+"""
+    QMainWindow
+    set icon, title, geometry
+    App, exec
+"""

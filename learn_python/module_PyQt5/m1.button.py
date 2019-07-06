@@ -1,6 +1,8 @@
 from PyQt5.QtWidgets import QMainWindow, QApplication, QPushButton
 import sys
 from PyQt5 import QtGui
+from PyQt5.QtCore import QRect
+from PyQt5 import QtCore
 
 class Window(QMainWindow):
     def __init__(self):
@@ -23,8 +25,20 @@ class Window(QMainWindow):
         self.show()
 
     def UiComponents(self):
-        button = QPushButton("Click This!", self)
+
+        btn = QPushButton("Click This!", self)
+        btn.setGeometry(QRect(100, 100, 120, 50))
+
+        btn1 = QPushButton("Click This!", self)
+        btn1.setGeometry(QRect(100, 180, 120, 50))
+        btn1.setIcon(QtGui.QIcon("./resource/home.png"))
+        btn1.setIconSize(QtCore.QSize(30,30))
+        btn1.setToolTip("<h3>This is a button click TIP!</h3>")
 
 App = QApplication(sys.argv)
 window = Window()
 sys.exit(App.exec())
+
+"""
+    Button: Geometry, Icon, IconSize, TooTip
+"""
